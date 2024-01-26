@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Wallpoet;
+    src: url(../assets/fonts/Wallpoet-Regular.ttf);
+}
+
+.wallpoet{
+    font-family: Wallpoet;
+} 
+
+body{
+    /* Background Image */
+    background-image: url(../assets/flammen.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+} 
+
+ 
